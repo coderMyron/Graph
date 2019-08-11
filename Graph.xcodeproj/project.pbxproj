@@ -14,6 +14,16 @@
 		A136CF9A22FFF3E900B53248 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A136CF9822FFF3E900B53248 /* LaunchScreen.storyboard */; };
 		A136CFA522FFF3E900B53248 /* GraphTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A136CFA422FFF3E900B53248 /* GraphTests.swift */; };
 		A136CFB022FFF3E900B53248 /* GraphUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A136CFAF22FFF3E900B53248 /* GraphUITests.swift */; };
+		A136CFBE22FFF43600B53248 /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = A136CFBD22FFF43600B53248 /* Edge.swift */; };
+		A136CFC022FFF45D00B53248 /* Vertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = A136CFBF22FFF45D00B53248 /* Vertex.swift */; };
+		A136CFC222FFF66800B53248 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = A136CFC122FFF66800B53248 /* Graph.swift */; };
+		A136CFC422FFF79200B53248 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A136CFC322FFF79200B53248 /* Queue.swift */; };
+		A136CFC622FFF7A500B53248 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A136CFC522FFF7A500B53248 /* Stack.swift */; };
+		A136CFC822FFF7D900B53248 /* AdjacencyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A136CFC722FFF7D900B53248 /* AdjacencyList.swift */; };
+		A136CFCA22FFF81400B53248 /* AdjacencyMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = A136CFC922FFF81400B53248 /* AdjacencyMatrix.swift */; };
+		A136CFCC230000D400B53248 /* Dijkstra.swift in Sources */ = {isa = PBXBuildFile; fileRef = A136CFCB230000D400B53248 /* Dijkstra.swift */; };
+		A136CFCE2300011A00B53248 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A136CFCD2300011A00B53248 /* PriorityQueue.swift */; };
+		A136CFD02300012300B53248 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = A136CFCF2300012300B53248 /* Heap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +57,16 @@
 		A136CFAB22FFF3E900B53248 /* GraphUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraphUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A136CFAF22FFF3E900B53248 /* GraphUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphUITests.swift; sourceTree = "<group>"; };
 		A136CFB122FFF3E900B53248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A136CFBD22FFF43600B53248 /* Edge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edge.swift; sourceTree = "<group>"; };
+		A136CFBF22FFF45D00B53248 /* Vertex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vertex.swift; sourceTree = "<group>"; };
+		A136CFC122FFF66800B53248 /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
+		A136CFC322FFF79200B53248 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		A136CFC522FFF7A500B53248 /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		A136CFC722FFF7D900B53248 /* AdjacencyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjacencyList.swift; sourceTree = "<group>"; };
+		A136CFC922FFF81400B53248 /* AdjacencyMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjacencyMatrix.swift; sourceTree = "<group>"; };
+		A136CFCB230000D400B53248 /* Dijkstra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dijkstra.swift; sourceTree = "<group>"; };
+		A136CFCD2300011A00B53248 /* PriorityQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PriorityQueue.swift; sourceTree = "<group>"; };
+		A136CFCF2300012300B53248 /* Heap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +123,16 @@
 				A136CF9622FFF3E900B53248 /* Assets.xcassets */,
 				A136CF9822FFF3E900B53248 /* LaunchScreen.storyboard */,
 				A136CF9B22FFF3E900B53248 /* Info.plist */,
+				A136CFBD22FFF43600B53248 /* Edge.swift */,
+				A136CFBF22FFF45D00B53248 /* Vertex.swift */,
+				A136CFC322FFF79200B53248 /* Queue.swift */,
+				A136CFC522FFF7A500B53248 /* Stack.swift */,
+				A136CFC122FFF66800B53248 /* Graph.swift */,
+				A136CFC722FFF7D900B53248 /* AdjacencyList.swift */,
+				A136CFC922FFF81400B53248 /* AdjacencyMatrix.swift */,
+				A136CFCF2300012300B53248 /* Heap.swift */,
+				A136CFCD2300011A00B53248 /* PriorityQueue.swift */,
+				A136CFCB230000D400B53248 /* Dijkstra.swift */,
 			);
 			path = Graph;
 			sourceTree = "<group>";
@@ -257,7 +287,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				A136CF9222FFF3E800B53248 /* ViewController.swift in Sources */,
+				A136CFC422FFF79200B53248 /* Queue.swift in Sources */,
+				A136CFC622FFF7A500B53248 /* Stack.swift in Sources */,
+				A136CFD02300012300B53248 /* Heap.swift in Sources */,
+				A136CFC022FFF45D00B53248 /* Vertex.swift in Sources */,
+				A136CFC822FFF7D900B53248 /* AdjacencyList.swift in Sources */,
+				A136CFCA22FFF81400B53248 /* AdjacencyMatrix.swift in Sources */,
+				A136CFCE2300011A00B53248 /* PriorityQueue.swift in Sources */,
 				A136CF9022FFF3E800B53248 /* AppDelegate.swift in Sources */,
+				A136CFBE22FFF43600B53248 /* Edge.swift in Sources */,
+				A136CFC222FFF66800B53248 /* Graph.swift in Sources */,
+				A136CFCC230000D400B53248 /* Dijkstra.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,7 +479,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.myron.Graph;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myron.Stack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -457,7 +497,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.myron.Graph;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myron.Stack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
